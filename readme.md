@@ -2,7 +2,7 @@
 
 This demo was build in about 2 hours using only plain HTML, CSS and ~20 lines of JS code on the client.
 
-It was created in response to this [twitter thread](https://twitter.com/Rich_Harris/status/1286086238651523073) to demonstrate that SPAs and frontend frameworks are not necessary to build a beautiful and performant Email Client Application.
+It was created in response to this [twitter thread](https://twitter.com/Rich_Harris/status/1286348294218821633) to demonstrate that SPAs and frontend frameworks are not necessary to build a beautiful and performant Email Client Application.
 
 Of course this demo could be hugely improved adding lazy loading, virtual scrolling, service workers... but the current state is enough to answer to the questions and doubts asked in the thread linked above.
 
