@@ -15,7 +15,7 @@ const {
 // config
 const port = 3000
 const viewsFolder = join(__dirname, 'views')
-const assetsFolder = join(__dirname, 'assets')
+const assetsFolder = join(__dirname, 'public')
 
 // app instances
 const app = new Koa()

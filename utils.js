@@ -1,22 +1,12 @@
-const faker = require('faker')
 const curry = require('curri')
+const {
+  PAGE_QUERY_PARAM,
+  OFFSET_QUERY_PARAM,
+  MAX_PAGES,
+  AMOUNT_ITEMS_BY_PAGE
+} = require('./constants')
 
-const PAGE_QUERY_PARAM = 'page'
-const OFFSET_QUERY_PARAM = 'offset'
-const MAX_PAGES = 10
-const AMOUNT_ITEMS_BY_PAGE = 100
-const MAX_ITEMS_AMOUNT = MAX_PAGES * AMOUNT_ITEMS_BY_PAGE
-
-const items = Array.from(
-  { length: MAX_ITEMS_AMOUNT },
-  (_, index) => ({
-    username: faker.internet.userName(),
-    avatar: faker.image.avatar(),
-    title: faker.lorem.text(),
-    text: faker.lorem.paragraphs(),
-    id: index
-  })
-)
+const items = require('./users.json')
 
 const getItemById = id => items.find(item => item.id === id)
 const getItems = (start, end) => items.slice(start, end)
