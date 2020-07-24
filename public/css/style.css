@@ -79,6 +79,7 @@ button {
   border: none;
   padding: 0.6rem 1.2rem;
   border-radius: 0.4rem;
+  cursor: pointer;
 }
 
 article {
@@ -100,8 +101,6 @@ article p {
   justify-content: center;
   margin: 0 0 2rem;
 }
-
-
 
 @keyframes background-fade {
   0% {
