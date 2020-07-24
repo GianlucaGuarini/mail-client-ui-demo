@@ -1,0 +1,26 @@
+{
+  "name": "mail-client-ui-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "koa": "^2.13.0",
+    "koa-router": "^9.1.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.3.0",
+    "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {
+    "@gianlucaguarini/eslint-config": "^2.0.0",
+    "curri": "^1.0.1",
+    "eslint": "^7.5.0"
+  }
+}

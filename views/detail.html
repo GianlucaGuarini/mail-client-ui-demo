@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <nav>
+    <a href="/?page={{ page }}#{{ item.id }}">
+      ⭠ Back
+    </a>
+  </nav>
+  <article>
+    <img class='avatar' loading='lazy' src='{{ item.avatar }}' alt='{{ item.username }} avatar'/>
+    <h1>{{ item.username }}</h1>
+    <p>{{ item.text }}</p>
+  </article>
+{% endblock %}

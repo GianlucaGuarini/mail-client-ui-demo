@@ -1,0 +1,11 @@
+{% for item in items %}
+  <li id='{{ item.id }}'>
+    <a href='/detail/{{ item.id }}'>
+      <img class="avatar" src='{{ item.avatar }}' alt='{{ item.username }} avatar'/>
+      <div>
+        <h2>{{ item.username }}</h2>
+        <h3>{{ item.title }}</h3>
+      </div>
+    </a>
+  </li>
+{% endfor %}

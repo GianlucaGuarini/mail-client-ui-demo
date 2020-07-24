@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Mails List</h1>
+
+  <ul>
+    {% include '_list.html' %}
+  </ul>
+
+  <div class='controls'>
+    <button>Load more...</button>
+  </div>
+
+{% endblock %}
